@@ -50,7 +50,7 @@
   bottom: 50%;
   left: 0;
   right: 0;
-  text-align: center;
+  
 }
 /* --------------------------------------
    row
@@ -67,16 +67,49 @@
    {
       height:150px;
    }
-   #mycaption
+   
+   .description1
    {
-      text-align: center;
-
+      
+       margin-bottom:3.4%;
+      background: black;
    }
+.description1-content
+{
+   
+   height:auto;
+   
+
+}
+.upmovies
+{
+   color:white;
+   margin-top: 50px;
+}
+.upmovieslist li
+{
+  
+   padding-top: 10px;
+}
+.more
+{
+   color:white;
+}
+.description2
+{
+   margin-top:4.4%;
+   background: black;
+}
+.nowmovies
+{
+   color:white;
+   margin-top: 50px;
+}
+
 
 /* --------------------------------------
-   Global Styles
+  images
    -------------------------------------- */
-
 
 
 /* --------------------------------------
@@ -110,16 +143,8 @@ footer
      max-width: 25px;
      max-height: 25px;
 }
-.socialmedia
-{
-   list-style-type: none;
 
 
-}
-.socialmedia li
-{
-   display: inline-block;
-}
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
 	
