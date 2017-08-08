@@ -1,161 +1,179 @@
 
 
 
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
+   /* --------------------------------------
+      Layout
+      -------------------------------------- */
 
 
 
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
+   /* --------------------------------------
+      Typography
+      -------------------------------------- */
 
 
 
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
-   
-/* --------------------------------------
-   Button
-   -------------------------------------- */   
-   #book
-   {
-      background-color: yellow;
-      color:black;
-      font-size: 20px;
-   }
-   .btn-glow:hover
-    {
-      box-shadow: 10px 10px;
-   }
-  
-   
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
-
-/* --------------------------------------
-  hero unit
-   -------------------------------------- */
-   .img-wrapper {
-  position: relative;
-  width: 100%;
- }
-
-.img-overlay {
-  position: absolute;
-  top: 50%;
-  bottom: 50%;
-  left: 0;
-  right: 0;
-  
-}
-/* --------------------------------------
-   row
-   -------------------------------------- */
-   #mycol
-   {
-      display: table-cell;
-    }
-   #mythumbnail
-   {
-      height: auto;
-   }
-   #mythumbnail img
-   {
-      height:150px;
-   }
-   
-   .description1
-   {
+   /* --------------------------------------
+      Navbar
+      -------------------------------------- */
       
-       margin-bottom:3.4%;
+   /* --------------------------------------
+      Button
+      -------------------------------------- */   
+      #book
+      {
+         background-color: yellow;
+         color:black;
+         font-size: 20px;
+      }
+      .btn-glow:hover
+      {
+         box-shadow: 10px 10px;
+      }
+     
+      
+   /* --------------------------------------
+      Carousel
+      -------------------------------------- */
+      .home_page
+      {
+         margin-top:6%;
+      }
+
+   /* --------------------------------------
+     hero unit
+      -------------------------------------- */
+      .img-wrapper 
+      {
+      position: relative;
+      width: 100%;
+      }
+
+      .img-overlay 
+      {
+         position: absolute;
+         top: 50%;
+         bottom: 50%;
+        left: 0;
+        right: 0;
+      }
+   /* --------------------------------------
+      row
+      -------------------------------------- */
+
+      #mythumbnail img
+      {
+         height:150px;
+      }
+      
+      .description1
+      {
+         
+          margin-bottom:3.4%;
+         background: black;
+      }
+      .description1-content
+      {
+      
+      height:auto;
+      }
+   .upmovies
+   {
+      color:white;
+      margin-top: 50px;
+   }
+   .upmovieslist li
+   {
+     
+      padding-top: 10px;
+   }
+   .more
+   {
+      color:white;
+   }
+   .description2
+   {
+      margin-top:4.4%;
       background: black;
    }
-.description1-content
-{
-   
-   height:auto;
-   
-
-}
-.upmovies
-{
-   color:white;
-   margin-top: 50px;
-}
-.upmovieslist li
-{
-  
-   padding-top: 10px;
-}
-.more
-{
-   color:white;
-}
-.description2
-{
-   margin-top:4.4%;
-   background: black;
-}
-.nowmovies
-{
-   color:white;
-   margin-top: 50px;
-}
+   .nowmovies
+   {
+      color:white;
+      margin-top: 50px;
+   }
 
 
-/* --------------------------------------
-  images
-   -------------------------------------- */
-
-
-/* --------------------------------------
-  footer
-   -------------------------------------- */
-footer
-{
-   background-color: black;
-   color: white;
-}
-
-
-#col_img img
-  {
-   
-     width: auto;
-     height: auto;
-     max-width: 50px;
-     max-height: 50px;
+   /* --------------------------------------
+    trending movies styling
+      -------------------------------------- */
+     .top-five-movie-1-percentage 
+     {
+      color:darkred;
       
-     color-rendering: black;
-  }
-  #col_img img:hover
-  {
-   background-color:blue;
-  }
-#social_img img
-{
-   width: auto;
-     height: auto;
-     max-width: 25px;
-     max-height: 25px;
-}
+     }
+     .top-five-movie-2-percentage 
+     {
+      color:red;
+     
+     }
+     .top-five-movie-3-percentage 
+     {
+      color:darkorange;
+      
+     }
+     .top-five-movie-4-percentage 
+     {
+      color:orange;
+      
+     }
+     .percentagesize
+     {
+      font-size: 20px;
+     }
 
 
-/* Portrait & landscape phone */
-@media (max-width: 480px) {
-	
-}
+   /* --------------------------------------
+     footer
+      -------------------------------------- */
+   footer
+   {
+      background-color: black;
+      color: white;
+   }
+   #col_img img
+     {
+      
+        width: auto;
+        height: auto;
+        max-width: 50px;
+        max-height: 50px;
+         
+        color-rendering: black;
+     }
+     #col_img img:hover
+     {
+      background-color:white;
+     }
+   #social_img img
+   {
+      width: auto;
+        height: auto;
+        max-width: 25px;
+        max-height: 25px;
+   }
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-	
-}
 
-/* Large desktop */
-@media (min-width: 1200px) {
-	
-}
+   /* Portrait & landscape phone */
+   @media (max-width: 480px) {
+   	
+   }
+
+   /* Landscape phone to portrait tablet */
+   @media (max-width: 768px) {
+   	
+   }
+
+   /* Large desktop */
+   @media (min-width: 1200px) {
+   	
+   }

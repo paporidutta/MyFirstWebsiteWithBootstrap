@@ -1,203 +1,210 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 
-<html>
-	<head>
+	<html>
+		<head>
+			
+			<!-- Website Title & Description for Search Engine purposes -->
+			<title>BookYourShow</title>
+			<meta name="description" content="">
+			
+			<!-- Mobile viewport optimized -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+			
+			<!-- Bootstrap CSS -->
+			<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+			<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+			
+			<!-- Custom CSS -->
+			<link href="includes/css/styles.css" rel="stylesheet">
+			
+			<!-- Include Modernizr in the head, before any other Javascript -->
+			<script src="includes/js/modernizr-2.6.2.min.js"></script>
+			
+		</head>
+		<body>
 		
-		<!-- Website Title & Description for Search Engine purposes -->
-		<title>BookYourShow</title>
-		<meta name="description" content="">
-		
-		<!-- Mobile viewport optimized -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		
-		<!-- Bootstrap CSS -->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
-		
-		<!-- Custom CSS -->
-		<link href="includes/css/styles.css" rel="stylesheet">
-		
-		<!-- Include Modernizr in the head, before any other Javascript -->
-		<script src="includes/js/modernizr-2.6.2.min.js"></script>
-		
-	</head>
-	<body>
-	
-		<div class="container" id="main">
-			<div class="navbar navbar-fixed-top navbar-inverse">  <!--to get the navigation bar fixed at top and black navbar-->
-				<div class="container">		
-					<div class="navbar-brand">BookYourMovie</div>	
-					<div class="nav-collapse collapse navbar-responsive-collapse">
-						<ul class="nav navbar-nav">
-							<li> 
-								<a href="index.html">Home</a>
-							</li>
-							<li class="active">
-								<a href="#">Movies</a>
-							</li>
-							<li>
-								<a href="#">Trailers</a>
-							</li>
-							</ul>
-							<ul class="nav navbar-nav pull-right">  <!--putting it to extreme right of navbar-->
-								<li>
-									<a href="#"><span class="glyphicon glyphicon-user"></span>Signup/login</a>
-								</li>
-							</ul>
-					</div> <!--end of collapse bar-->
-
-				</div><!--end of conatainer inside navbar-->
-		
-			</div> <!--end navbar-->
-<!--start of movies now container-->
-
-<!--image on right and description on left-->
-
-			<div class="row description2">
-				<div class="col-sm-4 description2-content text-center">
-						<h1 class="classMenu nowmovies">NOW SHOWING</h1>
-							<div id="dvMovieList1">
-								<ul class="nowmovieslist list-unstyled ">
-									<li><a   href="#">Jab Harry Met Sejal</a></li>
-									<li><a  href="#">Mubarakan</a></li>
-									<li><a href="#">Dunkirk</a></li>
-									<li><a href="#">Mom</a></li>
-									<li><a href="#">Spider-man:Homecoming</a></li>
-									<a class="more" href="#">More [+]</a>
-								</ul>
-							</div>
-					</div>
-				<div class="col-sm-8 description2-image pull-right  ">
-					<video class="img-responsive" src="video/dunkirk-trailer.mov " autoplay loop/> <!-- autoplay loop/>-->
-				</div>
-			 </div>    <!--end of description 2-->
-
-				<div class="conatainer trendingmovies text-center">
-					<h2>Trending Movies</h2>
-					<p><h4>Top tickets sold in the last 24 hours on BookYourMovie.com.</h4></p>
-					<div class="top-five-movie-wrapper">
-						<div class="row top-five-movie-row align-center">
-							<div class="col-sm-3  top-five-movie-1 align-self-bottom">
-								<p class="top-five-movie-1-percentage">12.3%
-								</p>
-								<div class="movie-posters-container-trending">
-									<a href="#"><img class="movie-posters top-five-movie-1-image img-circle " src="images/Emoji.jpg" alt="Emoji Movie, The" title="Emoji sMovie, The"></a>
-								</div>
-								<a href="#" class="top-five-movie-1-title"><h4>Emoji Movie, The</h4>
-								</a>
-							</div>
-							<div class="col-sm-3  top-five-movie-2 align-self-bottom">
-								<p class="top-five-movie-2-percentage">11.5%</p>
-								<div class="movie-posters-container-trending">
-									<a href="#"><img class="movie-posters top-five-movie-2-image img-circle " src="images/Dunkirk.jpg" alt="Dunkirk" title="Dunkirk"></a>
-								</div>
-								<a href="#" class="top-five-movie-2-title"><h4>Dunkirk</h4></a>
-							</div>
-							<div class="col-sm-3 top-five-movie-3 align-self-bottom">
-								<p class="top-five-movie-3-percentage">9.9%</p>
-								<div class="movie-posters-container-trending">
-									<a href="#"><img class="movie-posters top-five-movie-3-image img-circle " src="images/DarkTower.jpg" alt="Dark Tower, The" title="Dark Tower, The"></a>
-								</div>
-								<a href="#" class="top-five-movie-3-title"><h4>Dark Tower, The</h4></a>
-							</div>
-							<div class="col-sm-3  top-five-movie-4 align-self-bottom">
-								<p class="top-five-movie-4-percentage">7.7%</p>
-								<div class="movie-posters-container-trending">
-									<a href="#"><img class="movie-posters top-five-movie-4-image img-circle " src="images/spiderman.jpg" alt="Spider-Man: Homecoming" title="Spider-Man: Homecoming"></a>
-								</div>
-								<a href="#" class="top-five-movie-4-title"><h4>Spider-Man: Homecoming</h4></a>		
-							</div>
-						</div>
-					</div>
-				</div> 
-
-	<!--image on left and description on right-->
-				
-					<div class="description1 row ">
-	<!--beginning of carousel-->
-		 				<div class="carousel slide col-sm-6 description1-image " id="mysecondcarousel">
-				<!--indicators-->
-							<ol class="carousel-indicators">
-								<li class="active" data-slide-to="0" data-target="#0" data-target="#mysecondcarousel"></li>
-								<li data-slide-to="1" data-target="#0" data-target="#mysecondcarousel"></li>
-					 			<li data-slide-to="2" data-target="#0" data-target="#mysecondcarousel"></li>
-								<li data-slide-to="3" data-target="#0" data-target="#mysecondcarousel"></li>
-							</ol>
-				<!--wrapper for slideing images-->
-							<div class="carousel-inner">
-								<div class="item active" id="slide1">
-									<img src="images/movie1.jpg">
-									<div class="carousel-caption"> <!--if I need to write something inside it-->
-									</div>
-								</div><!--end item1-->
-								<div class="item " id="slide2">
-									<img src="images/movie2.jpg">
-									<div class="carousel-caption"> <!--if I need to write something inside it-->
-									</div>
-								</div><!--end item2-->
-					 			<div class="item " id="slide3">
-									<img src="images/movie3.jpg">
-									<div class="carousel-caption"> <!--if I need to write something inside it-->
-									</div>
-								</div><!--end item3-->
-								<div class="item " id="slide4">
-									<img src="images/movie4.jpg">
-									<div class="carousel-caption"> <!--if I need to write something inside it-->
-									</div>
-								</div><!--end item4-->
-							</div><!--end of inner-->
-				<!--contols for left and right slide-->
-							<a class="left carousel-control" data-slide="prev" href="#mysecondcarousel"><span class="icon-prev"></span></a>
-							<a class="right carousel-control" data-slide="next" href="#mysecondcarousel"><span class="icon-next"></span></a>
-						</div><!--end mycarousel--> 
- 
-	 					<div class="col-sm-6 description1-content text-center">
-							<h1 class="classMenu upmovies">COMING SOON</h1>
-							<div id="dvMovieList1">
-								<ul class="upmovieslist list-unstyled ">
-									<li><a   href="#">Bareilly Ki Barfi</a></li>
-									<li><a  href="#">A Gentleman</a></li>
-									<li><a href="#">Baadshaho</a></li>
-									<li><a href="#">Judwaa2</a></li>
-									<li><a href="#">American Made</a></li>
-								 	<a class="more" href="#">More [+]</a>
-								</ul>
-							</div>
-		 				</div><!--end of column of description-->
-		 			</div> <!--end of description1-->
-		</div><!--end main container-->
-
-		<footer>
-			<div class="container">
-				<div class ="row " >			
-					<div class="col-sm-2" id="col_img"><a href="#"> <img src="images/customer-care-rollover.svg"><h5>Customer Care</h5></a> </div>			
-					<div class="col-sm-2" id="col_img"><a href="#" > <img src="images/f&amp;q-rollover.svg"> <h5>F&amp;Q</h5></a></div>				
-					<div class="col-sm-2" id="col_img"><a href="#" > <img src="images/about-us-rollover.svg"> <h5>About Us</h5></a></div>
-					<div class="col-sm-2" id="col_img"> <a href="#" ><img src="images/feedback-rollover.svg"><h5>FeedBack</h5></a> </div>
-					<div class="col-sm-2" id="col_img"> <a href="#" ><img src="images/boxoffice-rollover.svg"><h5>Box Office</h5></a> </div>
-						<h5>Copyright &copy;2017 {PaporiDutta}</h5>
-						<div class="row">
-							<ul class ="socialmedia list-unstyled list-inline">
-								<li>Follow Us at:</li>
-								<li  id="social_img"><a href="#"> <img src="images/facebook.svg"></a> </li>
-								<li id="social_img"><a href="#"> <img src="images/twitter.svg"></a> </li>
-							</ul>
+			<div class="container" id="main">
+				<div class="navbar navbar-fixed-top navbar-inverse">  <!--to get the navigation bar fixed at top and black navbar-->
+					<div class="container">	
+						<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       				 	<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span> 
+      				</button>		
+							<div class="navbar-brand">BookYourMovie</div>	
 						</div>	
-					
-				</div> <!--end of row of footer-->
-			</div><!--end of footer container-->
-		</footer>
-		<script src="http://code.jquery.com/jquery.js"></script>
-	
-		<!-- If no online access, fallback to our hardcoded version of jQuery -->
-		<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
-	
-		<!-- Bootstrap JS -->
-		<script src="bootstrap/js/bootstrap.min.js"></script>
-	
-		<!-- Custom JS -->
-		<script src="includes/js/script.js"></script>
-	
+						
+						<div class="nav-collapse collapse navbar-responsive-collapse" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li> 
+									<a href="index.html">Home</a>
+								</li>
+								<li class="active">
+									<a href="#">Movies</a>
+								</li>
+								<li>
+									<a href="#">Trailers</a>
+								</li>
+								</ul>
+								<ul class="nav navbar-nav pull-right">  <!--putting it to extreme right of navbar-->
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-user"></span>Signup/login</a>
+									</li>
+								</ul>
+						</div> <!--end of collapse bar-->
 
-	</body>
-</html>
+					</div><!--end of conatainer inside navbar-->
+			
+				</div> <!--end navbar-->
+	<!--start of movies now container-->
+
+	<!--image on right and description on left-->
+
+				<div class="container description2">
+					<div class="col-sm-4 description2-content text-center">
+							<h1 class="classMenu nowmovies">NOW SHOWING</h1>
+								<div id="dvMovieList1">
+									<ul class="nowmovieslist list-unstyled ">
+										<li><a   href="#">Jab Harry Met Sejal</a></li>
+										<li><a  href="#">Mubarakan</a></li>
+										<li><a href="#">Dunkirk</a></li>
+										<li><a href="#">Mom</a></li>
+										<li><a href="#">Spider-man:Homecoming</a></li>
+										<a class="more" href="#">More [+]</a>
+									</ul>
+								</div>
+						</div>
+					<div class="col-sm-8 description2-image pull-right  ">
+						<video class="img-responsive" src="video/dunkirk-trailer.mov " autoplay loop/> <!-- autoplay loop/>-->
+					</div>
+				 </div>    <!--end of description 2-->
+
+					<div class=" container trendingmovies  text-center text-primary ">
+						<h2>Trending Movies</h2>
+						<p><h4>Top tickets sold in the last 24 hours on BookYourMovie.com.</h4></p>
+						
+							<div class="row">
+								<div class="col-sm-3  top-five-movie-1 align-self-bottom">
+									<p class="top-five-movie-1-percentage percentagesize">12.3%
+									</p>
+									<div class="movie-posters-container-trending">
+										<a href="#"><img class="movie-posters top-five-movie-1-image  " src="images/Emoji.jpg" alt="Emoji Movie, The" title="Emoji sMovie, The"></a>
+									</div>
+									<a href="#" class="top-five-movie-1-title"><h4>Emoji Movie, The</h4>
+									</a>
+								</div>
+								<div class="col-sm-3  top-five-movie-2 align-self-bottom">
+									<p class="top-five-movie-2-percentage percentagesize">11.5%</p>
+									<div class="movie-posters-container-trending">
+										<a href="#"><img class="movie-posters top-five-movie-2-image  " src="images/Dunkirk.jpg" alt="Dunkirk" title="Dunkirk"></a>
+									</div>
+									<a href="#" class="top-five-movie-2-title"><h4>Dunkirk</h4></a>
+								</div>
+								<div class="col-sm-3 top-five-movie-3 align-self-bottom">
+									<p class="top-five-movie-3-percentage percentagesize">9.9%</p>
+									<div class="movie-posters-container-trending">
+										<a href="#"><img class="movie-posters top-five-movie-3-image  " src="images/DarkTower.jpg" alt="Dark Tower, The" title="Dark Tower, The"></a>
+									</div>
+									<a href="#" class="top-five-movie-3-title"><h4>Dark Tower, The</h4></a>
+								</div>
+								<div class="col-sm-3  top-five-movie-4 align-self-bottom">
+									<p class="top-five-movie-4-percentage percentagesize">7.7%</p>
+									<div class="movie-posters-container-trending">
+										<a href="#"><img class="movie-posters top-five-movie-4-image  " src="images/spiderman.jpg" alt="Spider-Man: Homecoming" title="Spider-Man: Homecoming"></a>
+									</div>
+									<a href="#" class="top-five-movie-4-title"><h4>Spider-Man: Homecoming</h4></a>		
+								</div>
+						</div>
+					</div> 
+
+		<!--image on left and description on right-->
+					
+						<div class="container description1  ">
+		<!--beginning of carousel-->
+			 				<div class="carousel slide col-sm-6 description1-image " id="mysecondcarousel">
+					<!--indicators-->
+								<ol class="carousel-indicators">
+									<li class="active" data-slide-to="0" data-target="#0" data-target="#mysecondcarousel"></li>
+									<li data-slide-to="1" data-target="#0" data-target="#mysecondcarousel"></li>
+						 			<li data-slide-to="2" data-target="#0" data-target="#mysecondcarousel"></li>
+									<li data-slide-to="3" data-target="#0" data-target="#mysecondcarousel"></li>
+								</ol>
+					<!--wrapper for slideing images-->
+								<div class="carousel-inner">
+									<div class="item active" id="slide1">
+										<img src="images/movie1.jpg">
+										<div class="carousel-caption"> <!--if I need to write something inside it-->
+										</div>
+									</div><!--end item1-->
+									<div class="item " id="slide2">
+										<img src="images/movie2.jpg">
+										<div class="carousel-caption"> <!--if I need to write something inside it-->
+										</div>
+									</div><!--end item2-->
+						 			<div class="item " id="slide3">
+										<img src="images/movie3.jpg">
+										<div class="carousel-caption"> <!--if I need to write something inside it-->
+										</div>
+									</div><!--end item3-->
+									<div class="item " id="slide4">
+										<img src="images/movie4.jpg">
+										<div class="carousel-caption"> <!--if I need to write something inside it-->
+										</div>
+									</div><!--end item4-->
+								</div><!--end of inner-->
+					<!--contols for left and right slide-->
+								<a class="left carousel-control" data-slide="prev" href="#mysecondcarousel"><span class="icon-prev"></span></a>
+								<a class="right carousel-control" data-slide="next" href="#mysecondcarousel"><span class="icon-next"></span></a>
+							</div><!--end mycarousel--> 
+	 
+		 					<div class="col-sm-6 description1-content text-center">
+								<h1 class="classMenu upmovies">COMING SOON</h1>
+								<div id="dvMovieList1">
+									<ul class="upmovieslist list-unstyled ">
+										<li><a   href="#">Bareilly Ki Barfi</a></li>
+										<li><a  href="#">A Gentleman</a></li>
+										<li><a href="#">Baadshaho</a></li>
+										<li><a href="#">Judwaa2</a></li>
+										<li><a href="#">American Made</a></li>
+									 	<a class="more" href="#">More [+]</a>
+									</ul>
+								</div>
+			 				</div><!--end of column of description-->
+			 			</div> <!--end of description1-->
+			</div><!--end main container-->
+
+			<footer>
+				<div class="container">
+					<div class ="row " >			
+						<div class="col-sm-2" id="col_img"><a href="#"> <img src="images/customer-care-rollover.svg"><h5>Customer Care</h5></a> </div>			
+						<div class="col-sm-2" id="col_img"><a href="#" > <img src="images/f&amp;q-rollover.svg"> <h5>F&amp;Q</h5></a></div>				
+						<div class="col-sm-2" id="col_img"><a href="#" > <img src="images/about-us-rollover.svg"> <h5>About Us</h5></a></div>
+						<div class="col-sm-2" id="col_img"> <a href="#" ><img src="images/feedback-rollover.svg"><h5>FeedBack</h5></a> </div>
+						<div class="col-sm-2" id="col_img"> <a href="#" ><img src="images/boxoffice-rollover.svg"><h5>Box Office</h5></a> </div>
+							<h5>Copyright &copy;2017 {PaporiDutta}</h5>
+							<div class="row">
+								<ul class ="socialmedia col-sm-2 list-unstyled list-inline">
+									<li>Follow Us at:</li>
+									<li  id="social_img"><a href="#"> <img src="images/facebook.svg"></a> </li>
+									<li id="social_img"><a href="#"> <img src="images/twitter.svg"></a> </li>
+								</ul>
+							</div>	
+						
+					</div> <!--end of row of footer-->
+				</div><!--end of footer container-->
+			</footer>
+			<script src="http://code.jquery.com/jquery.js"></script>
+		
+			<!-- If no online access, fallback to our hardcoded version of jQuery -->
+			<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+		
+			<!-- Bootstrap JS -->
+			<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+			<!-- Custom JS -->
+			<script src="includes/js/script.js"></script>
+		
+
+		</body>
+	</html>
