@@ -30,10 +30,7 @@
     {
       box-shadow: 10px 10px;
    }
-   #giftbutton
-   {
-
-   }
+  
    
 /* --------------------------------------
    Carousel
@@ -101,6 +98,10 @@ footer
      max-height: 50px;
       
      color-rendering: black;
+  }
+  #col_img img:hover
+  {
+   background-color:blue;
   }
 #social_img img
 {
