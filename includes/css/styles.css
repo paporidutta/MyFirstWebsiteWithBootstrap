@@ -1,0 +1,126 @@
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+/* --------------------------------------
+   Button
+   -------------------------------------- */   
+   #book
+   {
+      background-color: yellow;
+      color:black;
+      font-size: 20px;
+   }
+   .btn-glow:hover
+    {
+      box-shadow: 10px 10px;
+   }
+   #giftbutton
+   {
+
+   }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+/* --------------------------------------
+  hero unit
+   -------------------------------------- */
+   .img-wrapper {
+  position: relative;
+  width: 100%;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+/* --------------------------------------
+   row
+   -------------------------------------- */
+   #mycol
+   {
+      display: table-cell;
+    }
+   #mythumbnail
+   {
+      height: auto;
+   }
+   #mythumbnail img
+   {
+      height:150px;
+   }
+   #mycaption
+   {
+      text-align: center;
+
+   }
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+  footer
+   -------------------------------------- */
+footer
+{
+   background-color: black;
+   color: white;
+}
+.options1 
+{
+    display: -webkit-inline-box;
+    padding: 10px 150px;
+   list-style-type: none;
+}
+.options1 li
+{
+    padding: 50px;
+}
+.options1 img
+  {
+   
+     width: auto;
+     height: auto;
+     max-width: 50px;
+     max-height: 50px;
+     color-rendering: black;
+  }
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
