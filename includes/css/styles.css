@@ -90,26 +90,35 @@ footer
    background-color: black;
    color: white;
 }
-.options1 
-{
-    display: -webkit-inline-box;
-    padding: 10px 150px;
-   list-style-type: none;
-}
-.options1 li
-{
-    padding: 50px;
-}
-.options1 img
+
+
+#col_img img
   {
    
      width: auto;
      height: auto;
      max-width: 50px;
      max-height: 50px;
+      
      color-rendering: black;
   }
+#social_img img
+{
+   width: auto;
+     height: auto;
+     max-width: 25px;
+     max-height: 25px;
+}
+.socialmedia
+{
+   list-style-type: none;
 
+
+}
+.socialmedia li
+{
+   display: inline-block;
+}
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
 	
