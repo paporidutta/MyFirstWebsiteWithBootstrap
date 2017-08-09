@@ -8,8 +8,9 @@
     {
       background: black;
       margin-bottom: 10px;
-     
+
     }
+    
 
 
    /* --------------------------------------
@@ -170,15 +171,19 @@
 
    /* Portrait & landscape phone */
    @media (max-width: 480px) {
+   
    	
    }
 
    /* Landscape phone to portrait tablet */
    @media (max-width: 768px) {
+    
    	
    }
 
    /* Large desktop */
    @media (min-width: 1200px) {
-   	
+   	 body {
+        background-color: #e0e0d1;
+    }
    }
